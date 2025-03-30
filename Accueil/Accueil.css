@@ -1,7 +1,7 @@
 /* Font Faces */
 @font-face {
     font-family: 'PoliceMariage';
-    src: url('../formal-script.bold.otf') format('opentype');
+    src: url('../Police/formal-script.bold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'PoliceDescription';
-    src: url('../Merriweather-Regular.ttf') format('truetype');
+    src: url('../Police/Merriweather-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -296,7 +296,7 @@ nav ul li a:hover {
     /* Largeur des serpentins */
     height: 200px;
     /* Hauteur des serpentins pour correspondre à la hauteur de la grille */
-    background: url('../waveSublimer.png') no-repeat center center / contain;
+    background: url('../image/waveSublimer.png') no-repeat center center / contain;
     opacity: 1;
     /* Opacité réglée pour une visibilité complète */
     z-index: -1;
@@ -306,7 +306,7 @@ nav ul li a:hover {
 }
 
 .image-grid-wrapper::after {
-    background: url('../waveSublimer.png') no-repeat center center / contain;
+    background: url('../image/waveSublimer.png') no-repeat center center / contain;
 }
 
 .image-grid-wrapper::before {

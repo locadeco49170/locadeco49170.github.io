@@ -3,7 +3,7 @@
 ---------------------------------------------------------------------------------- */
 @font-face {
     font-family: 'PoliceMariage';
-    src: url('../formal-script.bold.otf') format('opentype');
+    src: url('../Police/formal-script.bold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: 'PoliceDescription';
-    src: url('../Merriweather-Regular.ttf') format('truetype');
+    src: url('../Police/Merriweather-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
