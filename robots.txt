@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.locadeco49170.fr/sitemap.xml
