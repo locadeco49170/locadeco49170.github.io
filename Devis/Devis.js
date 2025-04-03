@@ -66,7 +66,7 @@ function generatePDF() {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
 
-    doc.addImage('https://www.locadeco49170.fr/LocADeco/image/Accueil/Logo.png', 'PNG', 10, 10, 40, 0);
+    doc.addImage('https://www.locadeco49170.fr/image/Accueil/Logo.png', 'PNG', 10, 10, 40, 0);
 
     doc.setFontSize(18);
     doc.text('Devis - Loc A Déco', 10, 50);
