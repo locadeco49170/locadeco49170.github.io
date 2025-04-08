@@ -21,7 +21,7 @@ function changeQuantity(elementId, change, articleId, articleName, articlePrice)
         if (newQuantity > 0) {
             cart[articleId] = {
                 name: articleName,
-                price: articlePrice,
+                price: parseFloat(articlePrice),
                 quantity: newQuantity
             };
         } else {
@@ -47,7 +47,8 @@ function displayCart() {
     for (let articleId in cart) {
         const article = cart[articleId];
         const listItem = document.createElement('li');
-        listItem.textContent = `${article.name} - ${article.quantity} x ${article.price}€ = ${article.quantity * article.price}€`;
+        const itemTotal = (article.quantity * article.price).toFixed(2);
+        listItem.textContent = `${article.name} - ${article.quantity} x ${article.price}€ = ${itemTotal}€`;
         cartItems.appendChild(listItem);
 
         // Calculer le total du panier
@@ -55,7 +56,7 @@ function displayCart() {
     }
 
     // Mettre à jour l'affichage du total
-    cartTotal.textContent = `Total: ${total}€`;
+    cartTotal.textContent = `Total: ${total.toFixed(2)}€`;
 }
 
 //-----------------------------------------------------------------------
