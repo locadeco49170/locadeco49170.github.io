@@ -80,11 +80,6 @@
         "titre": "Arche rectangulaire",
         "prix": "40€",
         "description": "Hauteur 3m, Longueur 3m ou 6m, peut-être diviser en 2"
-    },
-       {
-        "image": "mariage Fazi.jpg",
-        "titre": "mariage Fazi.",
-        "prix": "100€",
-        "description": "mmmmmmmm"
     }
+    
 ]
